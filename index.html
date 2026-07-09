@@ -1,75 +1,78 @@
-```html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forever Together</title>
 
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(135deg, #000000, #250000);
-            color: white;
-            font-family: "Georgia", serif;
-            text-align: center;
-            overflow: hidden;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        .card {
-            background: rgba(255, 255, 255, 0.08);
-            padding: 40px;
-            border-radius: 25px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
-            animation: appear 2s ease;
-        }
-
-        h1 {
-            color: #ff4d6d;
-            font-size: 45px;
-        }
-
-        p {
-            font-size: 20px;
-            color: #eeeeee;
-        }
-
-        @keyframes appear {
-            from {
-                opacity: 0;
-                transform: translateY(40px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .heart {
-            font-size: 50px;
-            animation: pulse 1.5s infinite;
-        }
-
-        @keyframes pulse {
-            50% {
-                transform: scale(1.2);
-            }
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="card">
-        <div class="heart">❤️</div>
-        <h1>Forever Together</h1>
-        <p>я всегда рядом✨</p>
-    </div>
+<div id="stars"></div>
+
+<section class="hero">
+
+<p class="date">19.02.25</p>
+
+<h1>Forever Together</h1>
+
+<h2>«Просто будь рядом.<br>Всегда.»</h2>
+
+<div class="scroll">↓</div>
+
+</section>
+
+<section class="memory">
+<img src="images/photo1.jpg" alt="">
+<div class="quote">
+Я буду счастлива где угодно, лишь бы там был ты.
+</div>
+</section>
+
+<section class="memory">
+<img src="images/photo2.jpg" alt="">
+<div class="quote">
+Если не судьба, то пойдем против судьбы.
+</div>
+</section>
+
+<section class="memory">
+<img src="images/photo3.jpg" alt="">
+<div class="quote">
+Хорошо знать, что там, где горит свет, кто-то может сидеть и думать о тебе.
+</div>
+</section>
+
+<section class="memory">
+<img src="images/photo4.jpg" alt="">
+<div class="quote">
+Приручи мою душу, я прошу тебя, послушай сердца зов. Ты – всё что мне нужно.
+</div>
+</section>
+
+<section class="memory">
+<img src="images/photo5.jpg" alt="">
+<div class="quote">
+Знаешь, ты самое лучшее что было со мной.
+</div>
+</section>
+
+<section class="memory">
+<img src="images/photo6.jpg" alt="">
+<div class="quote">
+Если не ты, то никто другой не получит моё сердце, оно принадлежит только тебе...
+</div>
+</section>
+
+<section class="finish">
+<h2>Конец моего сайта,<br>но не нашей истории. 💌</h2>
+</section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
-```
