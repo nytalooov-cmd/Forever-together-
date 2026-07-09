@@ -284,3 +284,25 @@ button {
 button:hover {
     transform: scale(1.1);
 }
+/* Галерея фотографий */
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+.gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.4s;
+    box-shadow: 0 0 20px rgba(255, 0, 100, 0.4);
+}
+
+.gallery img:hover {
+    transform: scale(1.08);
+}
