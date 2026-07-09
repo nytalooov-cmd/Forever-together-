@@ -325,3 +325,22 @@ button:hover {
     font-size: 18px;
     line-height: 1.6;
 }
+body {
+    background: linear-gradient(135deg, #0b0014, #1a001f, #33001f);
+    color: white;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    letter-spacing: 3px;
+}
+
+.hero p {
+    font-size: 22px;
+    opacity: 0.8;
+}
